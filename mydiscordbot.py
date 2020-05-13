@@ -17,5 +17,5 @@ async def bot( ctx, message ):
 
 
 
-TOKEN = os.environ.get('BOT TOKEN')
+TOKEN = os.environ.get('BOT_TOKEN')
 client.run(str(TOKEN))
